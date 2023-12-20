@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  padding: 0 !important;
+}
+
+.color-green {
+  color: #5cc7b6;
+}
+
+header {
+  max-height: 100vh;
+  min-height: 95vh;
+}
+
+.img-container {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.img-container img {
+  width: 100%;
+  height: 100%;
+}
+
+.navbar {
+  z-index: 10;
+  width: 100%;
+  color: white !important;
+  height: 10vh;
+}
+
+.navbar-brand {
+  width: 50px;
+}
+
+.nav-item a {
+  color: white !important;
+}
+
+.img-overlay {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 2;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0.6) 100%);
+}
+
+.hero-content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+.hero-content-container h3 {
+  font-size: 2.8rem;
+  color: white;
+}
+.hero-content-container h3::first-letter {
+  font-size: 5rem;
+}
+.hero-content-container p {
+  font-size: 1rem;
+  color: white;
+}
+.hero-content-container button {
+  background: #5cc7b6;
+  font-size: 0.85rem;
+  color: white;
+  width: 10rem;
+  height: 3rem;
+  border: 0;
+}
+
+.donation-btn {
+  margin-top: -5px;
+  margin-left: 10px;
+}
+
+.primary-btn {
+  background: #f2593a;
+  border-radius: 0 !important;
+  color: white;
+  font-size: 14px;
+}
+.primary-btn:hover {
+  color: white;
+  background: #ec3f1d;
+}
+
+.secondary-btn {
+  border-radius: 0 !important;
+  color: #f2593a;
+  font-size: 14px;
+  border: 1px solid #f2593a;
+  padding: 0 1.5rem !important;
+}
+.secondary-btn:hover {
+  color: white;
+  background: #ec3f1d;
+}
+
+.call-info a {
+  color: white;
+  text-decoration-style: dotted;
+}
+
+@media (min-width: 1025px) {
+  .programs {
+    width: 70% !important;
+  }
+}/*# sourceMappingURL=style.css.map */
